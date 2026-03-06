@@ -64,18 +64,23 @@ MedSafeAI
 ├── consumer.py
 ├── dashboard.py
 │
+
 ├── models
 │   └── autoencoder_model.h5
 │
+
 ├── database
 │   └── db.py
 │
+
 ├── utils
 │   ├── preprocessing.py
 │   └── email_alert.py
 │
+
 ├── requirements.txt
 │
+
 └── README.md
 
 
@@ -100,14 +105,14 @@ source .venv/bin/activate
 pip install -r requirements.txt
 If requirements file does not exist:
 pip install kafka-python numpy scikit-learn tensorflow streamlit
-----------------------------------------------------------------------
 
 🔌 Apache Kafka Setup
 Download Kafka Binary
 https://kafka.apache.org/community/downloads
 Extract Kafka to:
 C:\kafka
-----------------------------------------------------------------------
+
+
 Start Kafka Server
 Open PowerShell:
 cd C:\kafka
@@ -117,7 +122,7 @@ Start Kafka (KRaft mode)
 
 Create Kafka Topic
 .\bin\windows\kafka-topics.bat --create --topic patient_vitals --bootstrap-server localhost:9092
----------------------------------------------------------------------
+
 ▶ Running the Project
 1️⃣ Start Kafka
 cd C:\kafka
@@ -137,7 +142,7 @@ streamlit run dashboard.py
 
 Open in browser:
 http://localhost:8501
--------------------------------------------------------------------------
+
 📊 Example Patient Data
 {
  "patient_id": "P4",
@@ -145,7 +150,7 @@ http://localhost:8501
  "temperature": 39.1,
  "blood_pressure": 170
 }
---------------------------------------------------------------------------
+
 
 ⚠️ Severity Classification
 Anomaly Score	Severity
@@ -153,7 +158,7 @@ Anomaly Score	Severity
 0.3 – 0.6	MEDIUM
 > 0.6	HIGH
 
-=========================================================================
+
 📧 Email Alert System
 
 When the anomaly severity is HIGH, the system sends an alert email to notify healthcare staff.
@@ -163,14 +168,14 @@ Heart Rate: 125
 Temperature: 39.1
 Blood Pressure: 170
 Severity: HIGH
-========================================================================
+
 📈 Future Improvements
 1.Integration with IoT medical devices
 2.Real hospital patient dataset
 3.Advanced deep learning models
 4.Mobile app dashboard
 5.Doctor notification system
-======================================================================
+
 
 👨‍💻 Author
 Ankush Kumar
