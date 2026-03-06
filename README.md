@@ -1,6 +1,7 @@
 🏥 MedSafe AI – Real-Time Healthcare Monitoring System
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 📌 Project Overview
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 MedSafe AI is an AI-powered real-time healthcare monitoring system that analyzes patient vital signs and detects abnormal health conditions automatically.
 
 The system streams patient data in real time using Apache Kafka, analyzes it using machine learning models, and displays results on a live dashboard.
@@ -154,9 +155,9 @@ http://localhost:8501
 
 ⚠️ Severity Classification
 Anomaly Score	Severity
-< 0.3	LOW
-0.3 – 0.6	MEDIUM
-> 0.6	HIGH
+0.3	LOW
+0.3 – 0.6 MEDIUM
+0.6	HIGH
 
 
 📧 Email Alert System
@@ -182,4 +183,4 @@ Ankush Kumar
 AI / Machine Learning Developer
 
 📜 License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License. make it same type not channge inn redmee
