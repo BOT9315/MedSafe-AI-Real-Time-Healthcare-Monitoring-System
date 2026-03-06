@@ -17,7 +17,9 @@ If a dangerous health anomaly is detected, the system can trigger alerts to noti
 ✔ Live monitoring dashboard (Streamlit)
 ✔ Email alert system for critical cases
 ✔ Scalable architecture
-=========================================================================
+
+
+
 🧠 System Architecture
 Patient Data Generator
         │
@@ -52,7 +54,9 @@ AI Anomaly Detection
    ▼          ▼
 Database   Streamlit Dashboard
 (Optional)    Monitoring
-======================================================================
+
+
+
 📂 Project Structure
 MedSafeAI
 │
@@ -73,11 +77,11 @@ MedSafeAI
 ├── requirements.txt
 │
 └── README.md
-======================================================================
+
 
 ⚙️ Installation
 1️⃣ Clone the Repository
-git clone https://github.com/yourusername/MedSafeAI.git
+git clone https://github.com/BOT9315/MedSafe-AI-Real-Time-Healthcare-Monitoring-System.git
 cd MedSafeAI
 
 2️⃣ Create Virtual Environment
