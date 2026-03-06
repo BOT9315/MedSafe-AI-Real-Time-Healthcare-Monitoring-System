@@ -1,0 +1,11 @@
+kafka-python
+pandas
+numpy
+scikit-learn
+flask
+flask-cors
+sqlalchemy
+psycopg2-binary
+matplotlib
+seaborn
+plotly
