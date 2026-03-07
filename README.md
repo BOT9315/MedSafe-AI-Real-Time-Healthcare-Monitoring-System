@@ -56,6 +56,7 @@ AI Anomaly Detection
 Database   Streamlit Dashboard
 (Optional)    Monitoring
 
+TO SEE IN CODE FORM TO UNDERSTAND ESAYILY
 
 
 📂 Project Structure
