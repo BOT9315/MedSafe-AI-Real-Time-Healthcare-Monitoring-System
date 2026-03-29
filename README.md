@@ -6,6 +6,7 @@
 
 ## 📌 Overview
 
+
 **MedSafe AI** analyzes patient vital signs in real time using a dual-model AI pipeline — an **Autoencoder** (deep learning) combined with an **Isolation Forest** (unsupervised ML) — to detect abnormal health conditions automatically.
 
 Patient data flows through **Apache Kafka**, is classified by severity, stored in a database, and visualized on a **live Streamlit dashboard**. Critical cases trigger **email alerts** to notify healthcare staff without delay.
