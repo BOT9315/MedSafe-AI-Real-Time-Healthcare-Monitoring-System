@@ -3,6 +3,7 @@ import time
 import random
 import pandas as pd
 
+
 st.title("MedSafe AI - Patient Monitoring Dashboard")
 
 data = []
