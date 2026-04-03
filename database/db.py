@@ -43,6 +43,7 @@ for message in consumer:
     score = compute_anomaly(vitals)
     severity = classify_severity(score)
     vitals.update({"anomaly_score": score, "severity": severity})
+    
 
     insert_patient_data(session, vitals)
 
